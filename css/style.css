@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    font-size: 30px;
+}
+.color-blanco{
+    color: aliceblue;
+}
+.texto-centrado{
+text-align: center;
+}
+#titulo-principal{
+    background-color: black;
+}
