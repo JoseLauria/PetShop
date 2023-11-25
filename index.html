@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <header>
-        <img src="./images/Encabezado.jpg" alt="">
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="./index.html">Pagina Principal</a></li>
                 <li><a href="./pages/Alimento.html">Alimentos</a></li>
                 <li><a href="./pages/Accesorio.html">Accesorios</a></li>
@@ -21,15 +21,30 @@
                 <li><a href="./pages/Contacto.html">Contacto</a></li>
                 <li><a href="./pages/Carrito.html">Carrito</a></li>
             </ul>
-
         </nav>
     </header>
     <main>
         <h1 class="texto-centrado color-blanco" id="titulo-principal">PetShop </h1>
-        <img src="./images/Accesorios.jpg" alt="">
-        <H2>Desde PetShop  ofrecemos una gran variedad de productos para la alimentación y cuidado de tu mascota.
-            Establecemos una comunicación directa y personalizada con nuestros clientes con el propósito de satisfacer sus requerimientos y necesidades.</H2>
+        <img style="width: 100%;" src="./images/Encabezado.png" alt="">
+        <H2 class="textoh2">Desde PetShop ofrecemos una gran variedad de productos para la alimentación y cuidado de tu mascota.
+            Establecemos una comunicación directa y personalizada con nuestros clientes con el propósito de satisfacer
+            sus requerimientos y necesidades.</H2>
     </main>
+    <section class="form-register">
+        <h4>Formulario de Registro</h4>
+        <input class="controls" type="text" name="nombres" Id="nombres" placeholder="Ingrese Nombres">
+        <br>
+        <input class="controls" type="text" name="apellidos" Id="apellidos" placeholder="Ingrese Apellidos">
+        <br>
+        <input class="controls" type="email" name="correo" Id="correo" placeholder="Ingrese correo">
+        <br>
+        <input class="controls" type="text" name="Domicilio" Id="Domicilio" placeholder="Ingrese Domicilio">
+        <br>
+        <input class="controls" type="password" name="contraseña" Id="contraseña" placeholder="Ingrese contraseña">
+        <P>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></P>
+        <input class="botons" type="submit" value="Registrar">
+        <p><a href="#">¿Ya tengo Cuenta?</a></p>
+    </section>
     <footer>
         <p>Todos los derechos reservados</p>
         <ul>

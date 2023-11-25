@@ -1,31 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="../index.html">Pagina Principal</a></li>
                 <li><a href="../pages/Alimento.html">Alimentos</a></li>
                 <li><a href="../pages/Accesorio.html">Accesorios</a></li>
                 <li><a href="../pages/Higiene_Perfumeria.html">Higiene y Perfumeria</a></li>
                 <li><a href="../pages/Contacto.html">Contacto</a></li>
-                <li><a href="../pages/Carrito.html">Carrito</a></li>      
-            </ul>    
+                <li><a href="../pages/Carrito.html">Carrito</a></li>
+            </ul>
         </nav>
     </header>
-    
-    <main>
-        <h1 class="texto-centrado color-blanco" id="titulo-principal">Carrito</h1>
-        <img src="../images/Carrito.jpg" alt="">
-    </main>
+    <h1 class="texto-centrado color-blanco" id="titulo-principal">Carrito</h1>
+    <!--Carrito de Compras-->
+    <section>
+        <div class="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito </h2>
+                </div>
+                <div class="carrito-items">
+                    <div class="carrito-item">
+                        <img src="../images/Pretal.png" alt="" width="80px">
+                        <div class="carrito-item.detalles">
+                            <span class="carrito-item-titulo">Box Engasse</span>
+                            <div class="selector-cantidad">
+                                <i class="fa-solid fa-minus restar-cantidad"></i>
+                                <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                            </div>
+                            <span class="carrito-item-precio">$200</span>
+                        </div>
+                        <span class="btn-eliminar">
+                            <i class="fa-solid fa-trash"></i>
+                        </span>
+                    </div>
+                    <div class="carrito-item">
+                        <img src="../images/Alicate.png" alt="" width="80px">
+                        <div class="carrito-item.detalles">
+                            <span class="carrito-item-titulo">Box Engasse</span>
+                            <div class="selector-cantidad">
+                                <i class="fa-solid fa-minus restar-cantidad"></i>
+                                <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                            </div>
+                            <span class="carrito-item-precio">$200</span>
+                        </div>
+                        <span class="btn-eliminar">
+                            <i class="fa-solid fa-trash"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="carrito-total">
+                    <div class="fila">
+                        <strong>Tu Total</strong>
+                        <span class="carrito-precio-total">
+                            $400
+                        </span>
+                    </div>
+                    <button class="btn-pagar">Pagar<i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+    </section>
     <footer>
         <p>Todos los derechos reservados</p>
     </footer>
 </body>
+
 </html>

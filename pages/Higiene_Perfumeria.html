@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="../index.html">Pagina Principal</a></li>
                 <li><a href="../pages/Alimento.html">Alimentos</a></li>
                 <li><a href="../pages/Accesorio.html">Accesorios</a></li>
@@ -23,16 +23,34 @@
 
     <main>
         <h1 class="texto-centrado color-blanco" id="titulo-principal">Higiene y Perfumeria</h1>
-        <div>
-            <h2>Alicate</h2>
-            <img src="../images/Alicate.jpg" alt="Servicio A">
-            <h2>Collar Antipulgas</h2>
-            <img src="../images/collar-antipulgas-perros.jpg" alt="Servicio B">
-            <h2>Shampoo</h2>
-            <img src="../images/Shampoo.jpg" alt="Servicio C">
-            <h2>Pipeta</h2>
-            <img src="../images/Pipeta.jpg" alt="Servicio D">
-        </div>
+        <section class="contenedor">
+            <div class="contenedor-items">
+                <div class="item">
+                    <span class="titulo-item">Alicate</span>
+                    <img src="../images/Alicate.png" alt="" class="img-item">
+                    <span class="precio-item">$600</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Collar Antipulga</span>
+                    <img src="../images/collar-antipulgas-perros.png" alt=""class="img-item" >
+                    <span class="precio-item">$200</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Shampoo</span>
+                    <img src="../images/Shampoo.png" alt=""class="img-item" >
+                    <span class="precio-item">$700</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Pipeta</span>
+                    <img src="../images/Pipeta.png" alt=""class="img-item" >
+                    <span class="precio-item">$500</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Todos los derechos reservados</p>

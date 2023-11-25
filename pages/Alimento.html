@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="../index.html">Pagina Principal</a></li>
                 <li><a href="../pages/Alimento.html">Alimentos</a></li>
                 <li><a href="../pages/Accesorio.html">Accesorios</a></li>
@@ -24,18 +24,40 @@
 
     <main>
         <h1 class="texto-centrado color-blanco" id="titulo-principal">Alimentos</h1>
-        <div>
-            <h2>Perros</h2>
-            <img src="../images/Perros.jpg" alt="Servicio A">
-            <h2>Gatos</h2>
-            <img src="../images/Gatos.jpg" alt="Servicio B">
-            <h2>Peces</h2>
-            <img src="../images/Peces.jpg" alt="Servicio C">
-            <h2>Aves</h2>
-            <img src="../images/Aves.jpg" alt="Servicio D">
-            <h2>Roedores</h2>
-            <img src="../images/Roedores.jpg" alt="Servicio E">
-        </div>
+        <section class="contenedor">
+            <div class="contenedor-items">
+                <div class="item">
+                    <span class="titulo-item">Perros</span>
+                    <img src="../images/Perros.png" alt="" class="img-item">
+                    <span class="precio-item">$8000</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Gatos</span>
+                    <img src="../images/Gatos.png" alt=""class="img-item" >
+                    <span class="precio-item">$5000</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Peces</span>
+                    <img src="../images/Peces.png" alt=""class="img-item" >
+                    <span class="precio-item">$700</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Aves</span>
+                    <img src="../images/Aves.png" alt=""class="img-item" >
+                    <span class="precio-item">$500</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Roedores</span>
+                    <img src="../images/Roedores.png" alt=""class="img-item" >
+                    <span class="precio-item">$800</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+            </div>
+        </section>
         <table border="2" cellpadding="8" cellspacing="8">
             <thead>
                 <tr>

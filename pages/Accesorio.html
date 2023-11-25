@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="../index.html">Pagina Principal</a></li>
                 <li><a href="../pages/Alimento.html">Alimentos</a></li>
                 <li><a href="../pages/Accesorio.html">Accesorios</a></li>
@@ -23,14 +23,28 @@
     </header>
     <main>
         <h1 class="texto-centrado color-blanco" id="titulo-principal">Accesorios</h1>
-        <div>
-            <h2>Comedero Plastico</h2>
-            <img src="../images/Comedero.jpg" alt="Servicio A">
-            <h2>Collar</h2>
-            <img src="../images/Collar poli..jpg" alt="Servicio B">
-            <h2>Pretal</h2>
-            <img src="../images/Pretal.jpg" alt="Servicio C">
-        </div>
+        <section class="contenedor">
+            <div class="contenedor-items">
+                <div class="item">
+                    <span class="titulo-item">Comedero</span>
+                    <img src="../images/Comedero.png" alt="" class="img-item">
+                    <span class="precio-item">$300</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Collar</span>
+                    <img src="../images/Collar poli..png" alt=""class="img-item" >
+                    <span class="precio-item">$200</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Pretal</span>
+                    <img src="../images/Pretal.png" alt=""class="img-item" >
+                    <span class="precio-item">$200</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Todos los derechos reservados</p>
